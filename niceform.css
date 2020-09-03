@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background-color: #9381FF;
+}
+
+.container{
+    margin: auto;
+    min-height: 70vh;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-top: 3%;
+}
+
+.signup-img{
+    min-height: 70vh;
+    width:55%;
+    background: url("https://res.cloudinary.com/coltcopy/image/upload/v1599130941/_willpower_-nappy-_fmr4g6.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.signup-form{
+    width: 40%;
+    padding-left: 3%;
+    padding-top: 2.5%;
+   min-height: 70vh;
+   padding-bottom: 3%;
+}
+
+.form-inputs{
+    display: flex;
+    flex-direction: column;
+
+    width: 100%;
+}
+
+.form-inputs input{
+    padding: 3%;
+    border:none;
+    margin-top: 4%;
+    outline-color:transparent;
+    border-bottom: 2px solid #9381FF;
+    background-color: transparent;
+    outline-style: none;
+    width: 90%;
+}
+
+#chkbox{
+    margin-top: 10%;
+    width:7%;
+  
+}
+
+#button{
+    background-color: #9381FF;
+    outline-color: thistle;
+    cursor: pointer;
+    outline-style: solid;
+}
+
+.overlay-bg{
+    min-height: 100%;
+    background-image: linear-gradient(#7f29823e, #B8B8FF);
+   
+}
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: auto;
+        min-height: 100vh;
+        background-color: #ffffff;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-top: 3%;
+    }
+
+
+    .signup-img{
+        width: 100%;
+        min-height: 50vh;
+    }
+
+    .signup-form{
+        width:90%;
+        padding-left: 6%;
+        padding-top: 2.5%;
+       min-height: 50vh;
+       padding-bottom: 3%;
+    }
+
+    
+.overlay-bg{
+    min-height: 50vh;
+    background-image: linear-gradient(#7f29823e, #B8B8FF);
+   
+}
+}
